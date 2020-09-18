@@ -11,7 +11,7 @@ body {
     padding: 0;
     font-family: "Ubuntu", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: gold;
-    background-color: darkslategrey;
+    background-color: #30272f;
 }
 
 .container {
@@ -22,8 +22,8 @@ body {
 .img1 {
 
     filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.65));
-    animation: pulsePic 2s infinite;
-    -webkit-animation: pulsePic 2s infinite;
+    animation: pulsePic 1s infinite;
+    -webkit-animation: pulsePic 1s infinite;
     border-radius: 50%;
     
     display: block;
@@ -99,6 +99,7 @@ nav ul {
 }
 
 nav ul li {
+    background-color: rgb(60, 63, 60);
     justify-content: center;
     text-align: center;
     padding: 10px;
@@ -106,8 +107,9 @@ nav ul li {
 
 nav ul li a {
     font-size: 24px;
+    background-color: gold;
     text-decoration: none;
-    color: cyan;
+    color: crimson;
 }
 
 
@@ -179,7 +181,7 @@ article {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
